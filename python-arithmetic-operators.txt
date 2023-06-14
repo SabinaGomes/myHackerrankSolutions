@@ -1,0 +1,6 @@
+    a = int(input()) # a and b are the user inputs
+    b = int(input()) 
+    print(a + b) #adding the inputs
+    print(a - b) #subtracting the inputs
+    print(a * b) #multiplying the inputs
+    

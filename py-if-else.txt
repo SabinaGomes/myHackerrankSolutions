@@ -1,0 +1,21 @@
+import math
+import os
+import random
+import re
+import sys
+
+
+
+if __name__ == '__main__':
+    n = int(input().strip()) #input integer to detemine whether a prime number or not
+
+    if n % 2 != 0: #if n is divisiable by 2 and not have a remaninder greater than 0 than its prime.
+        print("Weird")
+    else:
+        if n >= 2 and n <= 5: #if within the range of 2-5 and if not prime then print 'not weird'
+            print("Not Weird")
+        elif n >= 6 and n <= 20: # if within the range of 6-20 and if prime then print 'weird'
+            print("Weird")
+        else:                 #if not prime then print 'not weird'
+            print("Not Weird")
+

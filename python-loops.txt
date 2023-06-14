@@ -1,0 +1,5 @@
+n = int(input()) #taking the user inputs 
+i = 0 #intalizing the start value
+while i < n:
+    print(i**2) #If i is less than the input then square i 
+    i += 1 #add i by 1 to continue the loop through

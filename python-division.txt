@@ -1,0 +1,4 @@
+    a = int(input()) #taking the user inputs
+    b = int(input())
+    print(a // b) #dividing the inputs as integers 
+    print(a / b) #dividing the inputs as modulus
