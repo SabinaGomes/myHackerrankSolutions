@@ -1,0 +1,8 @@
+if __name__ == '__main__':
+    n = int(input()) #number of elements in the tuple
+    integer_list = map(int, input().split()) #reads a space-seperated list of integers into individual strings
+    
+    my_tuple = tuple(integer_list) #converts the integers into a tuple
+    result = hash(my_tuple) #calculates the hash value and assigns it to 'result'
+
+print(result)
